@@ -1,0 +1,137 @@
+Microsoft Windows [版本 10.0.15063]
+(c) 2017 Microsoft Corporation。保留所有权利。
+
+C:\Users\ann>node -v
+v8.1.2
+
+C:\Users\ann>pwd
+'pwd' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\ann>node
+> !
+... q
+ReferenceError: q is not defined
+    at repl:2:1
+    at ContextifyScript.Script.runInThisContext (vm.js:44:33)
+    at REPLServer.defaultEval (repl.js:239:29)
+    at bound (domain.js:301:14)
+    at REPLServer.runBound [as eval] (domain.js:314:12)
+    at REPLServer.onLine (repl.js:433:10)
+    at emitOne (events.js:120:20)
+    at REPLServer.emit (events.js:210:7)
+    at REPLServer.Interface._onLine (readline.js:278:10)
+    at REPLServer.Interface._line (readline.js:625:8)
+>
+(To exit, press ^C again or type .exit)
+>
+
+C:\Users\ann>
+
+C:\Users\ann>
+
+C:\Users\ann>node
+>
+(To exit, press ^C again or type .exit)
+>
+
+C:\Users\ann>node
+>
+(To exit, press ^C again or type .exit)
+>
+
+C:\Users\ann>node
+>
+(To exit, press ^C again or type .exit)
+>
+
+C:\Users\ann>node
+>
+(To exit, press ^C again or type .exit)
+>
+
+C:\Users\ann>node
+>
+C:\Users\ann>node
+> process.exit()
+
+C:\Users\ann>node
+> .exit
+
+C:\Users\ann>node
+> npm install --global gulp
+npm should be run outside of the node repl, in your normal shell.
+(Press Control-D to exit.)
+>
+C:\Users\ann>npm install --global gulp
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+C:\Users\ann\AppData\Roaming\npm\gulp -> C:\Users\ann\AppData\Roaming\npm\node_modules\gulp\bin\gulp.js
++ gulp@3.9.1
+updated 4 packages in 21.273s
+
+C:\Users\ann>npm -v
+5.0.3
+
+C:\Users\ann>npm install --save-dev gulp
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN ann No description
+npm WARN ann No repository field.
+npm WARN ann No README data
+npm WARN ann No license field.
+
++ gulp@3.9.1
+added 185 packages in 17.647s
+
+C:\Users\ann>npm -v
+5.0.3
+
+C:\Users\ann>node -v
+v8.1.2
+
+C:\Users\ann>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann 的目录
+
+2017/07/03  11:10    <DIR>          .
+2017/07/03  11:10    <DIR>          ..
+2017/07/03  11:10             7,386 .bash_history
+2017/06/26  11:18    <DIR>          .config
+2017/06/26  17:32    <DIR>          .cordova
+2017/06/29  10:10               399 .gitconfig
+2017/06/28  15:54    <DIR>          .gnupg
+2017/07/03  10:56                64 .node_repl_history
+2017/06/28  10:44    <DIR>          .ssh
+2017/06/30  18:37            12,172 .viminfo
+2017/06/26  11:09    <DIR>          .vscode
+2017/06/30  10:23    <DIR>          clonegit
+2017/06/26  08:41    <DIR>          Contacts
+2017/06/29  11:43    <DIR>          Desktop
+2017/06/30  10:10    <DIR>          Documents
+2017/07/03  10:20    <DIR>          Downloads
+2017/06/27  18:19    <DIR>          Favorites
+2017/06/30  18:42    <DIR>          gitdemo
+2017/06/28  17:56    <DIR>          learngit
+2017/06/26  08:43    <DIR>          Links
+2017/06/29  10:10                75 mercurial.ini
+2017/06/26  08:41    <DIR>          Music
+2017/07/03  11:07    <DIR>          node_modules
+2017/06/26  08:43    <DIR>          OneDrive
+2017/07/03  11:07            40,294 package-lock.json
+2017/06/26  08:42    <DIR>          Pictures
+2017/06/26  08:41    <DIR>          Saved Games
+2017/06/26  08:42    <DIR>          Searches
+2017/06/30  10:01    <DIR>          sharegit
+2017/06/26  08:41    <DIR>          Videos
+               6 个文件         60,390 字节
+              24 个目录 199,776,948,224 可用字节
+
+C:\Users\ann>
