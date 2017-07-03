@@ -211,4 +211,570 @@ D:\Ann\项目\learngulp>gulp
 hello world
 [14:50:08] Finished 'default' after 624 μs
 
-D:\Ann\项目\learngulp>
+D:\Ann\项目\learngulp>cd \d C:\Users\ann\learngulp\gulpstart
+文件名、目录名或卷标语法不正确。
+
+D:\Ann\项目\learngulp>cd \c C:\Users\ann\learngulp\gulpstart
+文件名、目录名或卷标语法不正确。
+
+D:\Ann\项目\learngulp>cd /d C:\Users\ann\learngulp\gulpstart
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  14:53    <DIR>          .
+2017/07/03  14:53    <DIR>          ..
+               0 个文件              0 字节
+               2 个目录 199,994,023,936 可用字节
+
+C:\Users\ann\learngulp\gulpstart>cd ..
+
+C:\Users\ann\learngulp>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp 的目录
+
+2017/07/03  14:54    <DIR>          .
+2017/07/03  14:54    <DIR>          ..
+2017/07/03  14:55             7,323 gulpcmd.txt
+2017/07/03  14:53    <DIR>          gulpstart
+2017/07/03  14:53           229,376 gulp学习.doc
+               2 个文件        236,699 字节
+               3 个目录 199,994,089,472 可用字节
+
+C:\Users\ann\learngulp>ls
+'ls' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\ann\learngulp>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp 的目录
+
+2017/07/03  14:54    <DIR>          .
+2017/07/03  14:54    <DIR>          ..
+2017/07/03  14:55             7,323 gulpcmd.txt
+2017/07/03  14:53    <DIR>          gulpstart
+2017/07/03  14:53           229,376 gulp学习.doc
+               2 个文件        236,699 字节
+               3 个目录 199,994,003,456 可用字节
+
+C:\Users\ann\learngulp>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ann\learngulp>cd gulpstart
+
+C:\Users\ann\learngulp\gulpstart>ls
+'ls' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  14:53    <DIR>          .
+2017/07/03  14:53    <DIR>          ..
+               0 个文件              0 字节
+               2 个目录 199,993,737,216 可用字节
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN ann No description
+npm WARN ann No repository field.
+npm WARN ann No README data
+npm WARN ann No license field.
+
++ gulp@3.9.1
+updated 1 package in 3.003s
+
+C:\Users\ann\learngulp\gulpstart>npm install --save-dev gulp
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN ann No description
+npm WARN ann No repository field.
+npm WARN ann No README data
+npm WARN ann No license field.
+
++ gulp@3.9.1
+updated 1 package in 0.994s
+
+C:\Users\ann\learngulp\gulpstart>npm install --save-dev gulp
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN ann No description
+npm WARN ann No repository field.
+npm WARN ann No README data
+npm WARN ann No license field.
+
++ gulp@3.9.1
+updated 1 package in 0.984s
+
+C:\Users\ann\learngulp\gulpstart>npm install --save-dev gulp
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN ann No description
+npm WARN ann No repository field.
+npm WARN ann No README data
+npm WARN ann No license field.
+
++ gulp@3.9.1
+updated 1 package in 0.989s
+
+C:\Users\ann\learngulp\gulpstart>cd \d D:\Ann\项目\learngulp
+文件名、目录名或卷标语法不正确。
+
+C:\Users\ann\learngulp\gulpstart>D:
+
+D:\Ann\项目\learngulp>grunt
+'grunt' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+D:\Ann\项目\learngulp>gulp
+[15:03:38] Using gulpfile D:\Ann\项目\learngulp\gulpfile.js
+[15:03:38] Starting 'default'...
+hello world
+[15:03:38] Finished 'default' after 325 μs
+
+D:\Ann\项目\learngulp>cd /d C:\Users\ann\learngulp\gulpstart
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  15:02    <DIR>          .
+2017/07/03  15:02    <DIR>          ..
+               0 个文件              0 字节
+               2 个目录 199,991,521,280 可用字节
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN ann No description
+npm WARN ann No repository field.
+npm WARN ann No README data
+npm WARN ann No license field.
+
++ gulp@3.9.1
+updated 1 package in 1.891s
+
+C:\Users\ann\learngulp\gulpstart>npm install --save-dev gulp
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\ann\package.json'
+npm WARN ann No description
+npm WARN ann No repository field.
+npm WARN ann No README data
+npm WARN ann No license field.
+
++ gulp@3.9.1
+updated 1 package in 0.999s
+
+C:\Users\ann\learngulp\gulpstart>npm install --save-dev gulp
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN gulpstart No description
+npm WARN gulpstart No repository field.
+npm WARN gulpstart No license field.
+
++ gulp@3.9.1
+added 185 packages in 18.824s
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp
+npm WARN gulpstart No description
+npm WARN gulpstart No repository field.
+npm WARN gulpstart No license field.
+
++ gulp@3.9.1
+updated 1 package in 1.203s
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  15:16    <DIR>          .
+2017/07/03  15:16    <DIR>          ..
+2017/07/03  15:17                94 gulpfile.js
+2017/07/03  15:13    <DIR>          node_modules
+2017/07/03  15:13            40,294 package-lock.json
+2017/07/03  15:13                52 package.json
+               3 个文件         40,440 字节
+               3 个目录 199,981,494,272 可用字节
+
+C:\Users\ann\learngulp\gulpstart>gulp default
+[15:17:43] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[15:17:43] Starting 'default'...
+hello world
+[15:17:43] Finished 'default' after 740 μs
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  15:34    <DIR>          .
+2017/07/03  15:34    <DIR>          ..
+               0 个文件              0 字节
+               2 个目录 199,987,146,752 可用字节
+
+C:\Users\ann\learngulp\gulpstart>cnpm init
+'cnpm' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\ann\learngulp\gulpstart>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (gulpstart) C
+Sorry, name can no longer contain capital letters.
+package name: (gulpstart) npm WARN init canceled
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  15:34    <DIR>          .
+2017/07/03  15:34    <DIR>          ..
+               0 个文件              0 字节
+               2 个目录 199,987,961,856 可用字节
+
+C:\Users\ann\learngulp\gulpstart>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (gulpstart) project
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\ann\learngulp\gulpstart\package.json:
+
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) yes
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  15:36    <DIR>          .
+2017/07/03  15:36    <DIR>          ..
+2017/07/03  15:36               203 package.json
+               1 个文件            203 字节
+               2 个目录 199,987,810,304 可用字节
+
+C:\Users\ann\learngulp\gulpstart>cat package.json
+'cat' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp@3.9.1
+added 185 packages in 21.866s
+
+C:\Users\ann\learngulp\gulpstart>npm install --save-dev gulp
+npm notice save gulp is being moved from dependencies to devDependencies
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp@3.9.1
+updated 1 package in 1.013s
+
+C:\Users\ann\learngulp\gulpstart>npm help package.json
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp-less --save-dev
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp-less@3.3.2
+added 92 packages in 10.773s
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp --save-dev
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp@3.9.1
+updated 1 package in 2.016s
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  15:43    <DIR>          .
+2017/07/03  15:43    <DIR>          ..
+2017/07/03  15:43    <DIR>          node_modules
+2017/07/03  15:43            61,369 package-lock.json
+2017/07/03  15:43               301 package.json
+               2 个文件         61,670 字节
+               3 个目录 199,946,895,360 可用字节
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp-htmlmin --save-dev
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp-htmlmin@3.0.0
+added 24 packages in 5.936s
+
+C:\Users\ann\learngulp\gulpstart>dir
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 B839-5991
+
+ C:\Users\ann\learngulp\gulpstart 的目录
+
+2017/07/03  16:10    <DIR>          .
+2017/07/03  16:10    <DIR>          ..
+2017/07/03  16:16               533 gulpfile.js
+2017/07/03  16:07    <DIR>          node_modules
+2017/07/03  16:07            67,021 package-lock.json
+2017/07/03  16:07               331 package.json
+               3 个文件         67,885 字节
+               3 个目录 199,938,715,648 可用字节
+
+C:\Users\ann\learngulp\gulpstart>gulp testHTMLmin
+[16:17:32] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[16:17:32] Task 'testHTMLmin' is not in your gulpfile
+[16:17:32] Please check the documentation for proper gulpfile formatting
+
+C:\Users\ann\learngulp\gulpstart>gulp testHtmlmin
+[16:18:25] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[16:18:25] Starting 'testHtmlmin'...
+[16:18:25] 'testHtmlmin' errored after 610 μs
+[16:18:25] TypeError: gulp.scr is not a function
+    at Gulp.<anonymous> (C:\Users\ann\learngulp\gulpstart\gulpfile.js:15:10)
+    at module.exports (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\lib\runTask.js:34:7)
+    at Gulp.Orchestrator._runTask (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:273:3)
+    at Gulp.Orchestrator._runStep (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:214:10)
+    at Gulp.Orchestrator.start (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:134:8)
+    at C:\Users\ann\AppData\Roaming\npm\node_modules\gulp\bin\gulp.js:129:20
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+    at Function.Module.runMain (module.js:607:11)
+    at startup (bootstrap_node.js:158:16)
+
+C:\Users\ann\learngulp\gulpstart>gulp testHtmlmin
+[16:19:10] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[16:19:10] Starting 'testHtmlmin'...
+[16:19:10] Finished 'testHtmlmin' after 6.86 ms
+
+C:\Users\ann\learngulp\gulpstart>gulp testHtmlmin
+[16:27:10] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[16:27:10] Starting 'testHtmlmin'...
+[16:27:10] Finished 'testHtmlmin' after 6.45 ms
+
+C:\Users\ann\learngulp\gulpstart>gulp testHtmlmin
+[16:29:47] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[16:29:47] Starting 'testHtmlmin'...
+[16:29:47] Finished 'testHtmlmin' after 7.39 ms
+
+C:\Users\ann\learngulp\gulpstart>gulp testHtmlmin
+[16:32:54] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[16:32:54] Starting 'testHtmlmin'...
+[16:32:54] Finished 'testHtmlmin' after 7.51 ms
+
+C:\Users\ann\learngulp\gulpstart>gulp testHtmlmin
+[16:33:55] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[16:33:55] Starting 'testHtmlmin'...
+[16:33:55] Finished 'testHtmlmin' after 7.24 ms
+
+C:\Users\ann\learngulp\gulpstart>gulp testHtmlmin
+[16:44:38] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[16:44:38] Starting 'testHtmlmin'...
+[16:44:38] Finished 'testHtmlmin' after 7.01 ms
+
+C:\Users\ann\learngulp\gulpstart>gulp testLess
+[17:11:50] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:11:50] Starting 'testLess'...
+[17:11:50] Finished 'testLess' after 7.5 ms
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp-minify-css --save-dev
+npm WARN deprecated gulp-minify-css@1.2.4: Please use gulp-clean-css
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp-minify-css@1.2.4
+added 11 packages in 4.296s
+
+C:\Users\ann\learngulp\gulpstart>gulp testLess
+[17:20:36] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:20:36] Starting 'testLess'...
+[17:20:36] Finished 'testLess' after 7.76 ms
+
+C:\Users\ann\learngulp\gulpstart>gulp testLess
+[17:21:51] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:21:51] Starting 'testLess'...
+[17:21:51] Finished 'testLess' after 7.58 ms
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp-sourcemap --save-dev
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp-sourcemap@1.0.1
+added 1 package in 2.89s
+
+C:\Users\ann\learngulp\gulpstart>gulp testLess
+[17:26:36] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:26:36] Starting 'testLess'...
+[17:26:36] 'testLess' errored after 5.95 ms
+[17:26:36] ReferenceError: sourcemaps is not defined
+    at Gulp.<anonymous> (C:\Users\ann\learngulp\gulpstart\gulpfile.js:28:15)
+    at module.exports (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\lib\runTask.js:34:7)
+    at Gulp.Orchestrator._runTask (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:273:3)
+    at Gulp.Orchestrator._runStep (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:214:10)
+    at Gulp.Orchestrator.start (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:134:8)
+    at C:\Users\ann\AppData\Roaming\npm\node_modules\gulp\bin\gulp.js:129:20
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+    at Function.Module.runMain (module.js:607:11)
+    at startup (bootstrap_node.js:158:16)
+
+C:\Users\ann\learngulp\gulpstart>gulp testLess
+[17:27:15] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:27:15] Starting 'testLess'...
+[17:27:15] 'testLess' errored after 6.08 ms
+[17:27:15] TypeError: sourcemaps.write is not a function
+    at Gulp.<anonymous> (C:\Users\ann\learngulp\gulpstart\gulpfile.js:28:26)
+    at module.exports (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\lib\runTask.js:34:7)
+    at Gulp.Orchestrator._runTask (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:273:3)
+    at Gulp.Orchestrator._runStep (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:214:10)
+    at Gulp.Orchestrator.start (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:134:8)
+    at C:\Users\ann\AppData\Roaming\npm\node_modules\gulp\bin\gulp.js:129:20
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+    at Function.Module.runMain (module.js:607:11)
+    at startup (bootstrap_node.js:158:16)
+
+C:\Users\ann\learngulp\gulpstart>gulp testLess
+[17:27:47] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:27:47] Starting 'testLess'...
+[17:27:47] 'testLess' errored after 5.05 ms
+[17:27:47] TypeError: sourcemaps.init is not a function
+    at Gulp.<anonymous> (C:\Users\ann\learngulp\gulpstart\gulpfile.js:27:26)
+    at module.exports (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\lib\runTask.js:34:7)
+    at Gulp.Orchestrator._runTask (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:273:3)
+    at Gulp.Orchestrator._runStep (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:214:10)
+    at Gulp.Orchestrator.start (C:\Users\ann\learngulp\gulpstart\node_modules\orchestrator\index.js:134:8)
+    at C:\Users\ann\AppData\Roaming\npm\node_modules\gulp\bin\gulp.js:129:20
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+    at Function.Module.runMain (module.js:607:11)
+    at startup (bootstrap_node.js:158:16)
+
+C:\Users\ann\learngulp\gulpstart>gulp testLess
+module.js:487
+    throw err;
+    ^
+
+Error: Cannot find module 'gulp-sourcemaps'
+    at Function.Module._resolveFilename (module.js:485:15)
+    at Function.Module._load (module.js:437:25)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\ann\learngulp\gulpstart\gulpfile.js:5:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp-sourcemaps --save-dev
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp-sourcemaps@2.6.0
+added 20 packages in 8.813s
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp-sourcemaps --save-dev
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp-sourcemaps@2.6.0
+updated 1 package in 1.273s
+
+C:\Users\ann\learngulp\gulpstart>gulp testLess
+[17:30:32] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:30:32] Starting 'testLess'...
+[17:30:32] Finished 'testLess' after 9.37 ms
+
+C:\Users\ann\learngulp\gulpstart>gulp testWatch
+[17:33:19] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:33:19] Starting 'testWatch'...
+[17:33:19] Finished 'testWatch' after 7.78 ms
+[17:37:13] Starting 'testLess'...
+[17:37:13] Finished 'testLess' after 9.3 ms
+[17:37:14] Starting 'testLess'...
+[17:37:14] Finished 'testLess' after 1.71 ms
+[17:38:05] Starting 'testLess'...
+[17:38:05] Finished 'testLess' after 1.32 ms
+[17:38:21] Starting 'testLess'...
+[17:38:21] Finished 'testLess' after 698 μs
+^C终止批处理操作吗(Y/N)? y
+
+C:\Users\ann\learngulp\gulpstart>gulp testWatch
+[17:49:58] Using gulpfile ~\learngulp\gulpstart\gulpfile.js
+[17:49:58] Starting 'testWatch'...
+[17:49:58] Finished 'testWatch' after 7.52 ms
+^C终止批处理操作吗(Y/N)? y
+
+C:\Users\ann\learngulp\gulpstart>npm install gulp-uglify --save-dev
+npm WARN project@1.0.0 No description
+npm WARN project@1.0.0 No repository field.
+
++ gulp-uglify@3.0.0
+added 5 packages in 5.338s
+
+C:\Users\ann\learngulp\gulpstart>
