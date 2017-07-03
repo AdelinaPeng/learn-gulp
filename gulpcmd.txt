@@ -189,3 +189,26 @@ npm WARN learngulp No license field.
 
 + require-dir@0.3.2
 added 1 package in 2.531s
+
+D:\Ann\项目\learngulp>dir
+ 驱动器 D 中的卷是 data
+ 卷的序列号是 6802-4F1D
+
+ D:\Ann\项目\learngulp 的目录
+
+2017/07/03  14:37    <DIR>          .
+2017/07/03  14:37    <DIR>          ..
+2017/07/03  14:44                99 gulpfile.js
+2017/07/03  14:02    <DIR>          node_modules
+2017/07/03  14:02            86,146 package-lock.json
+2017/07/03  14:02               137 package.json
+               3 个文件         86,382 字节
+               3 个目录 997,133,324,288 可用字节
+
+D:\Ann\项目\learngulp>gulp
+[14:50:08] Using gulpfile D:\Ann\项目\learngulp\gulpfile.js
+[14:50:08] Starting 'default'...
+hello world
+[14:50:08] Finished 'default' after 624 μs
+
+D:\Ann\项目\learngulp>
