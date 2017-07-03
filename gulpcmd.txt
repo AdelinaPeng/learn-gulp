@@ -162,4 +162,22 @@ npm WARN learngulp No license field.
 + gulp@3.9.1
 added 185 packages in 21.998s
 
-D:\Ann\项目\learngulp>
+D:\Ann\项目\learngulp>npm install --save-dev gulp-less
+npm WARN learngulp No description
+npm WARN learngulp No repository field.
+npm WARN learngulp No license field.
+
++ gulp-less@3.3.2
+added 92 packages in 14.575s
+
+D:\Ann\项目\learngulp>npm install --save-dev gulp-watch
+
+> fsevents@1.1.2 install D:\Ann\项目\learngulp\node_modules\fsevents
+> node install
+
+npm WARN learngulp No description
+npm WARN learngulp No repository field.
+npm WARN learngulp No license field.
+
++ gulp-watch@4.3.11
+added 152 packages in 149.718s
