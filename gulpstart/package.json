@@ -12,6 +12,9 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-htmlmin": "^3.0.0",
-    "gulp-less": "^3.3.2"
+    "gulp-less": "^3.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^2.6.0"
   }
 }

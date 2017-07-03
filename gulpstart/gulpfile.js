@@ -1,5 +1,8 @@
 var gulp = require('gulp'),
-    htmlmin = require('gulp-htmlmin');
+    htmlmin = require('gulp-htmlmin'),
+    less = require('gulp-less'),
+    cssmin = require('gulp-minify-css');
+
 
 /*压缩插件的使用 */
 gulp.task('testHtmlmin', function() {
@@ -16,4 +19,17 @@ gulp.task('testHtmlmin', function() {
     gulp.src('src/html/*.html')
         .pipe(htmlmin(options))
         .pipe(gulp.dest('dist/html'));
+})
+
+/*grunt-less插件使用*/
+gulp.task('testLess', function() {
+    gulp.src('src/less/*.less') //编译src目录下所有的less文件
+        .pipe(less())
+        .pipe(cssmin())
+        .pipe(gulp.dest('src/css'));
+})
+
+/*监听less变化*/
+gulp.task('testWatch', function() {
+    gulp.watch('src/**/*.less', ['testLess']);
 })
