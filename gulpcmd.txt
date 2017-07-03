@@ -134,4 +134,32 @@ C:\Users\ann>dir
                6 个文件         60,390 字节
               24 个目录 199,776,948,224 可用字节
 
-C:\Users\ann>
+C:\Users\ann>cnpm -v
+'cnpm' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\ann>http://www.cnblogs.com/2050/p/4198792.htmlhttp://www.cnblogs.com/2050/p/4198792.html
+'http:' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\ann>cd /d D:
+
+D:\>D:\Ann\项目\learngulp
+'D:\Ann\项目\learngulp' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+D:\>cd /d D:\Ann\项目\learngulp
+
+D:\Ann\项目\learngulp>npm install --save-dev gulp
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN learngulp No description
+npm WARN learngulp No repository field.
+npm WARN learngulp No license field.
+
++ gulp@3.9.1
+added 185 packages in 21.998s
+
+D:\Ann\项目\learngulp>
