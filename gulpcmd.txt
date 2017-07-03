@@ -181,3 +181,11 @@ npm WARN learngulp No license field.
 
 + gulp-watch@4.3.11
 added 152 packages in 149.718s
+
+D:\Ann\项目\learngulp>npm install --save-dev require-dir
+npm WARN learngulp No description
+npm WARN learngulp No repository field.
+npm WARN learngulp No license field.
+
++ require-dir@0.3.2
+added 1 package in 2.531s
