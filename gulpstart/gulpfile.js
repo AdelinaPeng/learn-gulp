@@ -35,9 +35,16 @@ gulp.task('testWatch', function() {
     gulp.watch('src/**/*.less', ['testLess']);
 })
 
-/*压缩多个js文件*/
-gulp.task('jsmin', function() {
+/*压缩两个js文件*/
+gulp.task('jsmin2file', function() {
     gulp.src(['src/js/index.js', 'src/js/detail.js'])
+        .pipe(uglify())
+        .pipe(gulp.dest('dist/js'));
+})
+
+/*压缩多个文件*/
+gulp.task('jsmin', function() {
+    gulp.src('src/js/*.js')
         .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 })
