@@ -3,7 +3,8 @@ var gulp = require('gulp'),
     less = require('gulp-less'),
     cssmin = require('gulp-minify-css'),
     uglify = require('gulp-uglify'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
+    imagemin = require('gulp-imagemin');
 
 
 /*压缩插件的使用 */
@@ -56,4 +57,16 @@ gulp.task('testConcat', function() {
         .pipe(concat('all.js')) //合并后的文件名
         .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
+})
+
+/*压缩图片*/
+gulp.task('testImagemin', function() {
+    gulp.src('src/img/*.{png,ipg,gif,ico}')
+        .pipe(imagemin({
+            optimizationLevel: 5, //优化等级，类型：Number,默认3，取值范围：0-7
+            progressive: true, //无损压缩jpg图片,默认false
+            interlaced: true, //隔行扫描gif进行渲染，默认false
+            multipass: true //多次优化svg直到完全优化，默认false
+        }))
+        .pipe(gulp.dest('dist/img'));
 })
