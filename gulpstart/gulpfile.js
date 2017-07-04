@@ -2,7 +2,8 @@ var gulp = require('gulp'),
     htmlmin = require('gulp-htmlmin'),
     less = require('gulp-less'),
     cssmin = require('gulp-minify-css'),
-    uglify = require('gulp-uglify');
+    uglify = require('gulp-uglify'),
+    concat = require('gulp-concat');
 
 
 /*压缩插件的使用 */
@@ -42,9 +43,17 @@ gulp.task('jsmin2file', function() {
         .pipe(gulp.dest('dist/js'));
 })
 
-/*压缩多个文件*/
+/*压缩多个js文件*/
 gulp.task('jsmin', function() {
     gulp.src('src/js/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('dist/js'));
+})
+
+/*合并并压缩多个js文件*/
+gulp.task('testConcat', function() {
+    gulp.src('src/js/*.js')
+        .pipe(concat('all.js')) //合并后的文件名
         .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 })
