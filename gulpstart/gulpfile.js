@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
     htmlmin = require('gulp-htmlmin'),
     less = require('gulp-less'),
-    cssmin = require('gulp-minify-css');
+    cssmin = require('gulp-minify-css'),
+    uglify = require('gulp-uglify');
 
 
 /*压缩插件的使用 */
@@ -32,4 +33,11 @@ gulp.task('testLess', function() {
 /*监听less变化*/
 gulp.task('testWatch', function() {
     gulp.watch('src/**/*.less', ['testLess']);
+})
+
+/*压缩多个js文件*/
+gulp.task('jsmin', function() {
+    gulp.src(['src/js/index.js', 'src/js/detail.js'])
+        .pipe(uglify())
+        .pipe(gulp.dest('dist/js'));
 })
