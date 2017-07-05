@@ -4,7 +4,9 @@ var gulp = require('gulp'),
     cssmin = require('gulp-minify-css'),
     uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
-    imagemin = require('gulp-imagemin');
+    imagemin = require('gulp-imagemin'),
+    autoprefixer = require('gulp-autoprefixer'),
+    rev = require('gulp-rev-append');
 
 
 /*压缩插件的使用 */
@@ -69,4 +71,27 @@ gulp.task('testImagemin', function() {
             multipass: true //多次优化svg直到完全优化，默认false
         }))
         .pipe(gulp.dest('dist/img'));
+})
+
+/*autoprefixer插件配置 */
+gulp.task('testAutoFx', function() {
+    gulp.src('src/css/index.css')
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions', 'Android >= 4.0'], //last 2 versions: 主流浏览器的最新两个版本,Android for Android WebView.,> 4%: 全球统计有超过4%的使用率
+            cascade: true, //是否美化属性值 默认：true 像这样：
+            //-webkit-transform: rotate(45deg);
+            //        transform: rotate(45deg);
+            remove: true //是否去掉不必要的前缀 默认：true 
+
+        }))
+        .pipe(gulp.dest('dist/css'));
+})
+
+/**
+ * 添加版本号，已清楚页面缓存
+ */
+gulp.task('testRev', function() {
+    gulp.src('src/html/index.html')
+        .pipe(rev())
+        .pipe(gulp.dest('dist/html'));
 })
